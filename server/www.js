@@ -3,7 +3,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('nodejs-base-api:server');
+var debug = require('debug')(process.env.APP_NAME + ':server');
 var http = require('http');
 
 /**
