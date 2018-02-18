@@ -9,4 +9,7 @@ export default function apiRoutes(app) {
      * Declare all your routes here.
      */
     router.GET('/', testIndex);
+    router.POST('/', testIndex);
+    router.PUT('/', testIndex);
+    router.DELETE('/', testIndex);
 };
