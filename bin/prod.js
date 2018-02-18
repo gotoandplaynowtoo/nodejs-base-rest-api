@@ -1,2 +1,2 @@
 
-require('../dist/www');
+require('../dist/main');

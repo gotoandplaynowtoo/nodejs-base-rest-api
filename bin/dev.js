@@ -1,6 +1,6 @@
 
 require('babel-register');
-require('../server/www');
+require('../src/main')
 
 
 
